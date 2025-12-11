@@ -134,37 +134,36 @@ o bien puede hacer lo anterior o abrir el codigo en el editor y ejecutarlo desde
 
 3. Se ejecutará una ventana en la consola en la cual se le solicitara que elija alguna de las opciones. 
 
-<img width="700" height="532" alt="image" src="Screenshot 2025-07-23 141635.png" />
+<img width="700" height="532" alt="image" src="Screenshot 2025-12-11 170036.png" />
 
 
 4. Como puede ver las diversas opciones le permitiran gestionar el inventario. Aqui una explicacion de que hace cada una:
- -*Crear nuevo producto*: con esto podra crear un producto base del cual se generaran los paquetes, de aqui podras partir para armar tus paquetes
+   -*Crear nuevo producto*: con esto podra crear un producto y añadirle los atributos correspondientes. 
    
-   -*Crear paquetes*: Toma los productos base que has generado y te permite dar una cantidad de cuantos tienes de estos.
+   -*Ver catalogo*: Aqui podras ver el catalogo de tus productos, sus caracteristicas y demas.
 
-   -*Ver productos*: Te permite ver que productos tienes creados.
+   -*Modificar stock*: Con esta opcion podras editar la cantidad de productos que tienes.
 
-   -*Ver contenido del almacen*: Te permite ver que paquetes tienes creados.
+   -*Actualizar precio*: Con esta opcion podras modificar el precio de tus productos.
 
-   -*Exportar almacen a excel*: Te permite generar un excel con los paquetes que tienes generados, este te dirá cuantos tienes, que precio tiene el producto unitario, que precio tiene el rpoducto total la categoria y el stock que tienes.
+   -*Historial de cambios*: Aqui podras ver todos los cambios que se la han generado a cada uno de los productos. 
 
-   -*Historial de cambios*: Aqui podras ver todos los productos y paquetes que se han creado, tambien los archivos excel que se han generado.
+   -*Exportar catalogo a excel*: Te permite generar un excel con los productos que tienes generados, este te dirá  su codigo, , que precio tienen, la categoria y el stock que tienen.
 
-   -*Registros*:
+   -*Gestionar categorias*: Aqui podras ver que categorias hay creadas o crear categorias nuevas
 
-   -*Editar producto*:Aqui podras cambiarle el precio a el stock que tienes al producto
+   -*eliminar producto*: Aqui podras eliminar los productos que ya no desees.
 
-   -*Borrar producto*: Aqui podras eliminar los productos que ya no desees.
-
-   -*Borrar paquete*: Aqui podras borrar los paquetes que ya no desees.
+   -*salir*: Con esta opcion podras salir del programa.
 
 ## Observaciones
 
 Este codigo no está finalizado por ende tiene diversos inconvenientes:
 
 - Aun no tiene la posibilidad de tener una persistencia de datos.
-- Al generar un nuevo informe de los paquetes será necesario que se elimine el anterior y se remplace por el nuevo, esto puesto que aun no se genera de forma dinamica.
-- Aun no se le ah añadido la funcion de edicion para los paquetes.
+- Al generar el archivo de excel hay q ir a la carpeta donde esta el proyecto y ejecutar el excel desde ahi
+- Falta de interfaz grafica
+- El sistema no es util para aplicaciones demasido grandes, esto debido a que esta pensado para ser usado por sistemas pequeños y mas familiares/
 
   
 
@@ -175,8 +174,6 @@ Este codigo no está finalizado por ende tiene diversos inconvenientes:
 
 
 ---
-
-## Equipo Nuka-POOla
 
 
 Nuestro grupo eligio la alternativa 1.
