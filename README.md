@@ -6,14 +6,25 @@
 inventory es una herramienta moderna y gratuita para gestionar inventario y productos en almacenes de cualquier tamaño
 ¡organiza tu mundo como si fuera el fin del mundo!"
 
-Incluye pero no se limita a:
-- Control de inventario en tiempo real.
-- Búsqueda rápida de productos mediante excel.
-- Generación de reportes,registros eh historial de cambio.
 
 "Tecnología del mañana, ¡hoy mismo en su almacén! Con inventory, el futuro de la logística... está asegurado."
 ## Descripcion General
-Este proyecto simula un sistema de gestión de inventarios,no se enfoca en una area en especifico ya que esta diseñado para que cada persona pueda tomarlo y modificiarlo segun sus necesidades, fue desarrollado en Python utilizando Programación Orientada a Objetos (POO). Permite registrar productos, controlar entradas y salidas,modificar el stock de estos productos, editar sus precios y  mantener un historial organizado de todos los movimientos. 
+Este proyecto simula un sistema de gestión de inventarios,no se enfoca en una area en especifico ya que esta diseñado para que cada persona pueda tomarlo y modificiarlo segun sus necesidades, fue desarrollado en Python utilizando Programación Orientada a Objetos (POO).
+
+El sistema permite:
+- Registrar productos.
+- Asignarles registro y categoria.
+- modificar precios y stock.
+- Mantener un registro de todos los movimientos realizados.
+- Observar el atologo completo.
+## Enfoque de la solucion
+Primero se abordo el problema desde un punto de vista utilitarista.
+
+1. Se penso en cuales deberian ser los primeros procesos que debia poder realizar el inventario.
+2. Se pensaron las clases y el como podrian estar relacionadas entre si.
+3. Se generaron funciones especificas para hacer cosas tales como : generar registros, generar productos etc.
+4. Una vez comprobado que las funciones hicieran su trabajo de forma indivudual se fueron organizando mediante las clases propuestas anteriormente, aunque durante el proceso hubieron algunos cambios y cosas eliminadas.
+5. Se pulio el acabado y se organizo en paquetes para facilidad de futuras ediciones, cambios y mejoras.
 
 ##  Implementación
 
