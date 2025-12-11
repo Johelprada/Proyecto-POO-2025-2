@@ -1,4 +1,4 @@
-# Solitare code
+# PROYECTO POO- GRUPO: Solitare code
 
 
 "Con inventory ni una tuerca se pierde
@@ -12,7 +12,8 @@ Incluye pero no se limita a:
 - Generación de reportes,registros eh historial de cambio.
 
 "Tecnología del mañana, ¡hoy mismo en su almacén! Con inventory, el futuro de la logística... está asegurado."
-
+## Descripcion General
+Este proyecto simula un sistema de gestión de inventarios,no se enfoca en una area en especifico ya que esta diseñado para que cada persona pueda tomarlo y modificiarlo segun sus necesidades, fue desarrollado en Python utilizando Programación Orientada a Objetos (POO). Permite registrar productos, controlar entradas y salidas,modificar el stock de estos productos, editar sus precios y  mantener un historial organizado de todos los movimientos. 
 
 ##  Implementación
 
@@ -79,8 +80,6 @@ Este codigo no está finalizado por ende tiene diversos inconvenientes:
 ---
 
 ## Equipo Nuka-POOla
-
-<img width="460" height="114" alt="Nuka Poola botella" src="https://github.com/user-attachments/assets/5508df52-6244-437b-8afc-d0ff8b11aaa9" />
 
 
 Nuestro grupo eligio la alternativa 1.
