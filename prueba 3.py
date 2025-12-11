@@ -310,7 +310,7 @@ def exportar_a_excel():
 
 def mostrar_menu():
     print("\n" + "="*50)
-    print("SISTEMA DE INVENTARIO v2.2")
+    print("SISTEMA DE INVENTARIO v2.4")
     print("="*50)
     print("1. Crear nuevo producto")
     print("2. Ver catalogo completo")
@@ -457,4 +457,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
