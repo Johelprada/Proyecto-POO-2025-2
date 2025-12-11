@@ -28,6 +28,8 @@ Primero se abordo el problema desde un punto de vista utilitarista.
 
 ## Diagrama de clases
 Este diagrama muestra el diagrama actual del proyecto.
+
+```mermaid
 classDiagram
     class Producto {
         -str _codigo
@@ -97,7 +99,20 @@ classDiagram
     SistemaInventario "1" --> "1" ExportadorExcel : tiene
     Catalogo "1" --> "*" Producto : gestiona
     ExportadorExcel --> Producto : exporta
-##  Implementación
+```
+y el empaquetado se ve de la siguiente forma: 
+```
+inventario/
+├── modelos/
+│   ├── __init__.py
+│   ├── producto.py
+│   ├── catalogo.py
+│   ├── categorias.py
+│   └── historial.py
+├── exportador.py
+└── sistema.py        
+```
+##  Implementación del codigo:
 
 ##  Requisitos previos
 
