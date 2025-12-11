@@ -26,6 +26,77 @@ Primero se abordo el problema desde un punto de vista utilitarista.
 4. Una vez comprobado que las funciones hicieran su trabajo de forma indivudual se fueron organizando mediante las clases propuestas anteriormente, aunque durante el proceso hubieron algunos cambios y cosas eliminadas.
 5. Se pulio el acabado y se organizo en paquetes para facilidad de futuras ediciones, cambios y mejoras.
 
+## Diagrama de clases
+Este diagrama muestra el diagrama actual del proyecto.
+classDiagram
+    class Producto {
+        -str _codigo
+        -str _nombre
+        -float _precio
+        -int _stock
+        -str _categoria
+        -datetime _fecha_creacion
+        +__init__(codigo, nombre, precio, stock, categoria)
+        +modificar_stock(cantidad, operacion) tuple
+        +actualizar_precio(nuevo_precio) str
+        +__str__() str
+    }
+
+    class Catalogo {
+        -dict _productos
+        +__init__()
+        +agregar_producto(codigo, nombre, precio, stock, categoria) tuple
+        +buscar_producto(codigo) Producto
+        +eliminar_producto(codigo) str
+        +listar_productos()
+        +obtener_todos() list
+    }
+
+    class GestorCategorias {
+        -list _categorias
+        +__init__()
+        +crear_categoria(nombre_categoria) tuple
+        +listar_categorias()
+        +seleccionar_categoria() tuple
+        +tiene_categorias() bool
+    }
+
+    class Historial {
+        -list _cambios
+        +__init__()
+        +registrar_cambio(descripcion)
+        +ver_historial()
+        +obtener_cambios() list
+    }
+
+    class ExportadorExcel {
+        +__init__()
+        +exportar_catalogo(productos) str
+        -_aplicar_formato(ws)
+    }
+
+    class SistemaInventario {
+        -catalogo
+        -categorias
+        -historial
+        -exportador
+        +__init__()
+        +mostrar_menu()
+        +menu_crear_producto()
+        +menu_modificar_stock()
+        +menu_actualizar_precio()
+        +menu_gestionar_categorias()
+        +menu_eliminar_producto()
+        +menu_exportar()
+        +ejecutar()
+    }
+
+    SistemaInventario "1" --> "1" Catalogo : tiene
+    SistemaInventario "1" --> "1" GestorCategorias : tiene
+    SistemaInventario "1" --> "1" Historial : tiene
+    SistemaInventario "1" --> "1" ExportadorExcel : tiene
+    Catalogo "1" --> "*" Producto : gestiona
+    ExportadorExcel --> Producto : exporta
 ##  Implementación
 
 ##  Requisitos previos
