@@ -1,18 +1,17 @@
-# Nuka-Store Manager 2077
+# Solitare code
 
-<img width="1023" height="126" alt="nkastore2" src="https://github.com/user-attachments/assets/6609c289-2a72-460e-ba7d-5f1bcac2a175" />
 
-"Con nuka-inventory ni una tuerca se pierde
+"Con inventory ni una tuerca se pierde
 
-Nuka-Store Manager 2077 es una herramienta moderna y gratuita para gestionar inventario y productos en almacenes de cualquier tamaño
+inventory es una herramienta moderna y gratuita para gestionar inventario y productos en almacenes de cualquier tamaño
 ¡organiza tu mundo como si fuera el fin del mundo!"
 
 Incluye pero no se limita a:
-- Control de inventario en tiempo real
-- Búsqueda rápida de productos
-- Generación de reportes/registros en pkl y tablas excel
+- Control de inventario en tiempo real.
+- Búsqueda rápida de productos mediante excel.
+- Generación de reportes,registros eh historial de cambio.
 
-"Tecnología del mañana, ¡hoy mismo en su almacén! Con Nuka-Store Manager 2077, el futuro de la logística... está asegurado."
+"Tecnología del mañana, ¡hoy mismo en su almacén! Con inventory, el futuro de la logística... está asegurado."
 
 
 ##  Implementación
