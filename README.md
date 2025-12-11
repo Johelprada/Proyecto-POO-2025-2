@@ -115,22 +115,22 @@ inventario/
 ##  Implementación del codigo:
 
 ##  Requisitos previos
-
+Para este codigo sera necesario tener instalado python y la libreria openpyxl.
 - Versión mínima requerida: Python 3.7.
 - Versión recomendada: Python 3.9.
 
-Además, para el correcto funcionamiento del codigo será necesario instalar con
+Además, para el correcto funcionamiento del codigo se debera instalar openpyxl, para hacerlo se puede ir a nuestra consola y escribir :
 ```cmd
 pip install openpyxl
 ```
 
 ##  Funcionamiento 
-1. Descargará la carpeta llamada empaquetado, una vez hecho esto podra abrirla desde su visualizador de codigo de confianza.
+1. Debera descargar la carpeta llamada inventario, una vez hecho esto podra abrirla desde su visualizador de codigo de confianza.
 2. El programa se ejecuta desde 
 ```cmd
-Proyecto/main.py
+Inventario/sistema.py
 ```
-bien puede hacer lo anterior o abrir el codigo y ejecutarlo desde main.py
+o bien puede hacer lo anterior o abrir el codigo en el editor y ejecutarlo desde ahi.
 
 3. Se ejecutará una ventana en la consola en la cual se le solicitara que elija alguna de las opciones. 
 
