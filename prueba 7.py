@@ -389,7 +389,7 @@ class SistemaInventario:
     
     def mostrar_menu(self):
         print("\n" + "="*50)
-        print("SISTEMA DE INVENTARIO v2.2")
+        print("SISTEMA DE INVENTARIO v2.8")
         print("="*50)
         print("1. Crear nuevo producto")
         print("2. Ver catalogo completo")
@@ -604,4 +604,5 @@ class SistemaInventario:
 if __name__ == "__main__":
     # Crea una instancia del sistema y lo ejecutamos
     sistema = SistemaInventario()
+
     sistema.ejecutar()
