@@ -134,7 +134,7 @@ o bien puede hacer lo anterior o abrir el codigo en el editor y ejecutarlo desde
 
 3. Se ejecutará una ventana en la consola en la cual se le solicitara que elija alguna de las opciones. 
 
-<img width="700" height="532" alt="image" src="Screenshot 2025-12-11 170036.png" />
+<img width="700" height="532" alt="image" src="imagen 2.png" />
 
 
 4. Como puede ver las diversas opciones le permitiran gestionar el inventario. Aqui una explicacion de que hace cada una:
